@@ -1,0 +1,48 @@
+h1 {
+  color: brown;
+  text-transform: uppercase;
+}
+div {
+  width: 50%;
+  border: 1px solid black;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  border: 1px solid green;
+}
+
+#child_1 {
+  color: brown;
+  text-decoration: underline;
+  font-style: italic;
+}
+.child {
+  color: red;
+}
+.section_1 {
+  color: red;
+}
+/* last rule */
+p {
+  background-color: red;
+}
+p {
+  background-color: blue;
+}
+/* specifity */
+p {
+  color: red;
+}
+p {
+  color: white;
+}
+.discription {
+  color: aqua;
+}
+#pera {
+  color: blanchedalmond;
+}
